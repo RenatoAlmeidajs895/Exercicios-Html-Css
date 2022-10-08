@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        body { font-family: 'work sans', Arial, Helvetica, sans-serif;
+            /*
+            medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            16x geralmente = 1em
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+        }
+
+     h1 {
+             /* shorthand font 
+            
+            - font-style -> font-weight -> font- size -> font-family} 
+            font-weight: bolder;
+            font-size: 1em;
+            font-style: italic; 
+            */
+          font: italic bolder 1em 'work sans', sans-serif;
+     }
+
+     h2 {
+        font: bold 2em 'work sans';
+     }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus numquam, veniam necessitatibus tenetur facilis deleniti, optio sint quidem, quos quo. Obcaecati praesentium magnam voluptatum maxime id illo eveniet deleniti
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum repellendus quasi nisi recusandae, similique a deleniti eligendi neque molestiae eos, reprehenderit repellat beatae, quos reiciendis fugiat culpa exercitationem consectetur?
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident maiores cumque nobis nemo ullam nostrum non asperiores ad ex commodi porro nihil, quod obcaecati dicta voluptas et atque dignissimos cum.</p>
+
+   
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt modi officiis temporibus vero eveniet molestiae quas ea provident rem hic corporis voluptatibus sapiente deleniti ad inventore voluptate quia, laborum adipisci.</p>
+</body>
+</html>
